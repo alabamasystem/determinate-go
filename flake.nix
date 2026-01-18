@@ -39,6 +39,12 @@
             packages = with pkgs; [
               go # The Go CLI
               gotools # Go tools like goimports, godoc, and others
+              gopls
+              gotools
+              delve
+              gomodifytags
+              gotests 
+              golangci-lint
             ];
           };
         }
